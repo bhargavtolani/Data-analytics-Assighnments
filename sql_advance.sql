@@ -1,5 +1,4 @@
 use practice;
-SELECT * FROM employees;
 -- Q1. What is a Common Table Expression (CTE), and how does it improve SQL query readability?
 -- A Common Table Expression (CTE) is a temporary, named result set in SQL that you define using the WITH clause and then reference within a single query
 -- 1. Improves readability
