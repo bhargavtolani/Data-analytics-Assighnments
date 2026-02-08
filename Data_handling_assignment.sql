@@ -157,3 +157,5 @@ END;
 SELECT * FROM customers;
 
 -- Count how many customers have missing income
+SELECT COUNT(*)AS missing_income_value FROM customers
+WHERE income IS NULL;
